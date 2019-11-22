@@ -1,0 +1,26 @@
+@media (max-width:1000px) {
+  .price {
+    width:50%
+  }
+}
+@media (max-width:670px) {
+  .price {
+    width:100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .header-contents {
+    display:none;
+  }
+  .navToggle {
+    display: block;
+  }
+}
