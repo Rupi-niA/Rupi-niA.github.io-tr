@@ -1,0 +1,343 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'my-font';
+  src: url(RiiT_F.otf);
+}
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  font-size: 14px;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+}
+.container {
+  max-width: 1170px;
+  width:100%;
+  margin:0 auto;
+text-align: center;
+}
+.top-wrapper {
+  height:0;
+  width:100%;
+  padding-top: 70.5533597%;
+  background-image:url(IMG_2923.jpg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat: no-repeat;
+}
+/* philosophy */
+.philosophy-wrapper {
+  padding:0 60px;
+  margin-top: 60px;
+  height:100%;
+}
+.philosophy-wrapper p {
+  font-size: 14px;
+}
+.philosophy {
+  margin-bottom:50px;
+}
+.treatment {
+  margin-bottom: 50px;
+}
+
+.introduction-icon {
+  opacity:1;
+  margin: 50px 0 20px 0;
+}
+.introduction-txt {
+  background-color: rgba(255,229,255,0.6);
+  padding:20px 30px;
+  border-radius: 5px;
+}
+.introduction-txt li {
+  line-height: 35px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  display:block;
+  padding-bottom: 5px;
+}
+/* header */
+header {
+  height: 65px;
+  width:100%;
+  background-color: rgba(255,147,201,0.7);
+  position:fixed;
+  top:0;
+  z-index: 10;
+}
+.header-left {
+  float:left;
+  padding-left:20px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'my-font';
+}
+
+
+.header-contents {
+  float:right;
+}
+.header-contents a {
+  float:left;
+  padding-right: 20px;
+  color:white;
+  font-size: 16px;
+}
+/* main-wrapper */
+.main-wrapper {
+  height:100%;
+  background-color:#f7f7f7;
+
+  margin-top:60px;
+  padding: 0 60px;
+}
+
+.service {
+  padding:30px 0;
+}
+img {
+  width:200px;
+  height:200px;
+  opacity: 0.6;
+  border-radius: 50%;
+  margin-bottom:20px;
+}
+.service-icon {
+  position:relative;
+  padding:15px 0;
+  width:100%;
+}
+.service-icon p {
+  position:absolute;
+  top:90px;
+  width:100%;
+  font-weight: bold;
+}
+.txt-contents {
+  font-size: 14px;
+}
+span {
+  font-weight: bold;
+}
+.heading {
+  border-bottom: 2px solid grey;
+  padding-top:60px;
+  margin-bottom: 60px;
+}
+/* price-wrapper*/
+.price-wrapper {
+  height:100%;
+  padding:0 60px;
+  margin-top: 60px;
+}
+.clear {
+  clear:left;
+}
+.price {
+  float:left;
+  width:33%;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+.price-wholeBody {
+  background-color: rgba(255,229,229,0.7);
+
+}
+.price-beauty {
+  background-color: rgba(255,229,242,0.7);
+}
+.price-beauty-wholeBody {
+  background-color: rgba(255,229,255,0.7);
+}
+.price-ear {
+  background-color: rgba(255,229,229,0.7);
+}
+.price-cupping {
+  background-color: rgba(255,229,242,0.7);
+}
+.price-massage {
+  background-color: rgba(255,229,255,0.7);
+}
+.prices p {
+  font-size: 12px;
+}
+h3 {
+  font-size: 16px;
+}
+/* contact-wrapper*/
+.contact-wrapper {
+  height:100%;
+  margin-top: 60px;
+  padding:0 60px;
+  background-color: #f7f7f7;
+}
+.contact-txt {
+  font-size: 14px;
+}
+.contact-message {
+  padding-bottom: 30px;
+}
+.btn-contact {
+  position:relative;
+  display:block;
+  border-radius: 50px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffa3d1;
+  padding:5px 0;
+  margin:auto;
+  max-width:250px;
+  margin-bottom: 30px;
+}
+.btn-contact::after {
+  content: "";
+  background-size: contain;
+  width:24px;
+  height:24px;
+  position: absolute;
+  top calc(50% - 12px)
+  left: 15px;
+}
+
+.contact-wrapper p {
+  font-size: 14px;
+}
+/* footer */
+footer {
+  height:65px;
+  background-color: rgba(221,188,255,0.7);
+}
+.footer-logo p {
+  line-height: 60px;
+}
+.footer-logo {
+  padding-left:20px;
+  font-weight: bold;
+  font-family: 'my-font';
+  font-size: 20px;
+}
+
+nav.globalMenuSp {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    transform: translateY(-100%);
+    transition: all 0.6s;
+    width: 100%;
+    opacity:0.9;
+}
+
+nav.globalMenuSp ul {
+    background-color: rgb(255,147,201);
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+nav.globalMenuSp ul li {
+    font-size: 1.1em;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px dotted white;
+}
+
+/* 最後はラインを描かない */
+nav.globalMenuSp ul li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+nav.globalMenuSp ul li a {
+    display: block;
+    color: white;
+    padding: 1em 0;
+}
+
+/* このクラスを、jQueryで付与・削除する */
+nav.globalMenuSp.active {
+    transform: translateY(0%);
+}
+.navToggle {
+    display: block;
+    position: fixed;    /* bodyに対しての絶対位置指定 */
+    right: 13px;
+    top: 12px;
+    width: 42px;
+    height: 45px;
+    cursor: pointer;
+    z-index: 3;
+    background: rgba(96,96,96,0.7);
+    text-align: center;
+    display: none;
+}
+
+.navToggle span {
+    display: block;
+    position: absolute;    /* .navToggleに対して */
+    width: 30px;
+    border-bottom: solid 3px #eee;
+    -webkit-transition: .35s ease-in-out;
+    -moz-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+    left: 6px;
+}
+
+.navToggle span:nth-child(1) {
+    top: 9px;
+}
+
+.navToggle span:nth-child(2) {
+    top: 18px;
+}
+
+.navToggle span:nth-child(3) {
+    top: 27px;
+}
+
+.navToggle span:nth-child(4) {
+    border: none;
+    color: #eee;
+    font-size: 9px;
+    font-weight: bold;
+    top: 34px;
+}
+/* 最初のspanをマイナス45度に */
+.navToggle.active span:nth-child(1) {
+    top: 18px;
+    left: 6px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/* 2番目と3番目のspanを45度に */
+.navToggle.active span:nth-child(2),
+.navToggle.active span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
